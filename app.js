@@ -6,7 +6,7 @@ import UserRoute from "./routes/user.routes.js";
 
 dotenv.config();
 
-const port=process.env.PORT;
+const port=process.env.PORT || 5000;
 const MONGODB_URL=process.env.MONGODB_URL;
 
 const app=express();
